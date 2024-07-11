@@ -11,6 +11,7 @@
            /* border-collapse: collapse;*/
             border-radius: 10px;
             border-style: dashed;
+            border-spacing: 50px;
            
             text-align: center;
         }
@@ -23,18 +24,26 @@
         }
         th,td{
             background-color: burlywood;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            padding-left: 30px;
+            padding-right: 40px;
+        }
+        tr:nth-child(even){
+            background-color: rgb(0, 0, 0);
         }
     </style>
 </head>
 <body>
     <h2>basic html table</h2>
-    <table style="width: 80%;",>
+    <table style="width: 100%;",>
+        <caption><b>Information table</b></caption>
         <tr>
-            <th style="width: 50%;">company</th>
+            <th style="width: 50%;" >company</th>
             <th>contact</th>
             <th>country</th>
         </tr>
-        <tr>
+        <tr style="height:200px">
             <td style="width: 30%;">alfreds futterkiste</td>
             <td>pushprndra</td>
             <td>india</td>
