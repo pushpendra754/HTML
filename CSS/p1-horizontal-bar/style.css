@@ -4,16 +4,20 @@ body{
 
 
 .icon-bar{
-
-
     width: 100%;
+
+
+ 
+  
     background-color: #ab7676;
     overflow: hidden;
+    
     
 }
 
 .icon-bar a{
     float: left;
+    display: block;
     
     width: 20%;
     text-align: center;
