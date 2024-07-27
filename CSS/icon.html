@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* unvisited link */
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: overline;
+}
+</style>
+</head>
+<body>
+
+<h2>Styling a link depending on state</h2>
+
+<p><b><a href="https://www.linkedin.com/in/pushpendra-rajput-b5a232226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">This is a link</a></b></p>
+<p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
+
+</body>
+</html>
